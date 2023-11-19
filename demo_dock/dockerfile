@@ -1,0 +1,3 @@
+FROM openjdk:17
+ADD target/practica.jar practica.jar
+ENTRYPOINT ["java", "-jar","practica.jar"]
